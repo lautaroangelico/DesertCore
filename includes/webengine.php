@@ -36,8 +36,6 @@ if(isset($_SERVER["HTTP_CF_CONNECTING_IP"])) {
 @mb_internal_encoding("UTF-8");
 
 // System Check
-if(version_compare(PHP_VERSION, '7.2', '>=') == false) throw new Exception('Unsupported PHP version.');
-if(version_compare(PHP_VERSION, '7.3', '<') == false) throw new Exception('Unsupported PHP version.');
 if(extension_loaded("mongodb") === false) throw new Exception('Missing required PHP extension "mongodb"');
 if(extension_loaded("openssl") === false) throw new Exception('Missing required PHP extension "openssl"');
 if(extension_loaded("PDO") === false) throw new Exception('Missing required PHP extension "PDO"');
