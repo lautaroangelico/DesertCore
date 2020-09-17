@@ -1,0 +1,5 @@
+{
+    "news_list_limit": "10",
+    "enable_pagination": true,
+    "news_per_page": "3"
+}

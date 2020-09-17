@@ -1,0 +1,11 @@
+.nav-submenu {
+	margin-top: 0px !important;
+}
+
+.nav-submenu > li > a {
+	padding-left: 60px;
+}
+
+.setting-description {
+	font-size: 12px;
+}

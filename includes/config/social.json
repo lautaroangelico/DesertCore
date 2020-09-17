@@ -1,0 +1,17 @@
+{
+    "enabled": false,
+    "provider": {
+        "facebook": {
+            "enabled": false,
+            "id": "",
+            "secret": "",
+            "scope": "email"
+        },
+        "google": {
+            "enabled": false,
+            "id": "",
+            "secret": "",
+            "scope": ""
+        }
+    }
+}

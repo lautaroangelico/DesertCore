@@ -1,0 +1,13 @@
+{
+    "show_client_downloads": "1",
+    "show_patch_downloads": "1",
+    "show_other_downloads": "1",
+    "show_system_requirements": "1",
+    "show_driver_downloads": "1",
+    "driver_link_nvidia": "http:\/\/www.nvidia.com\/Download\/index.aspx?lang=en-us",
+    "driver_img_nvidia": "downloads_drivers_nvidia.jpg",
+    "driver_link_amd": "http:\/\/support.amd.com\/us\/gpudownload\/Pages\/index.aspx",
+    "driver_img_amd": "downloads_drivers_amd.jpg",
+    "driver_link_intel": "http:\/\/downloadcenter.intel.com\/default.aspx",
+    "driver_img_intel": "downloads_drivers_intel.jpg"
+}

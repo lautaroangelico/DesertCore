@@ -1,0 +1,7 @@
+{
+    "enable_session_timeout": "1",
+    "session_timeout": "600",
+    "max_login_attempts": "5",
+    "failed_login_timeout": "900",
+    "max_failed_attempts_notification": "0"
+}

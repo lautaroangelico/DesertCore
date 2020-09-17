@@ -1,0 +1,10 @@
+{
+    "items_per_page": "10",
+    "default_category": "1",
+    "default_subcategory": "",
+    "enable_menu": true,
+    "enable_breadcrumb": true,
+    "mail_sender_name": "DesertCore CMS",
+    "mail_subject": "Web Shop Purchase",
+    "mail_message": "Thanks for your purchase."
+}

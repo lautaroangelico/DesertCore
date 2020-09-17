@@ -1,0 +1,64 @@
+.player-profile {
+	background: #000000 url('../img/profiles/default.jpg') no-repeat center center;
+	background-size: cover;
+	color: #ffffff;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -khtml-border-radius: 10px;
+	-moz-box-shadow: 0 0 10px #555;
+	-webkit-box-shadow: 0 0 10px #555;
+	box-shadow: 0 0 10px #555;
+}
+
+.player-profile .player-profile-table {
+	color: #ffffff;
+	table-layout: fixed;
+}
+	.player-profile .player-profile-table tr td:first-child {
+		color: #aaaaaa;
+	}
+
+.player-profile .player-profile-class-zodiac-icon {
+	background: rgba(0, 0, 0, 0.5);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	display: inline-block;
+	padding: 15px;
+	-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -khtml-border-radius: 50%;
+	-moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+	.player-profile .player-profile-class-zodiac-icon:hover {
+		background: rgba(0, 0, 0, 0.8);
+		border: 1px solid rgba(255, 255, 255, 0.5);
+	}
+	.player-profile .player-profile-class-zodiac-icon img {
+		width: 150px;
+		height: auto;
+	}
+
+.profile-item-icon {
+	display: inline-block;
+	background: #000;
+	padding: 3px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border: 1px solid #444;
+}
+	.profile-item-icon img {
+		width: 22px;
+		height: auto;
+	}
+
+.profile-item-grade-0, .profile-item-grade-0:hover, .profile-item-grade-0:active { color: #ffffff; }
+.profile-item-grade-1, .profile-item-grade-1:hover, .profile-item-grade-1:active { color: #5ff369; }
+.profile-item-grade-2, .profile-item-grade-2:hover, .profile-item-grade-2:active { color: #0391c4; }
+.profile-item-grade-3, .profile-item-grade-3:hover, .profile-item-grade-3:active { color: #f6c232; }
+.profile-item-grade-4, .profile-item-grade-4:hover, .profile-item-grade-4:active { color: #d36300; }

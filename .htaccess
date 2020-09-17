@@ -1,0 +1,24 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	
+	#	Excluded directories
+	RewriteRule ^(.well-known)($|/) - [L]
+	
+	#	Force HTTPS
+	#	Uncomment the lines below to force users to use a secure
+	#	connection.
+	
+	#RewriteCond %{HTTPS} !=on
+	#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+	
+	#	All requests are by default handled by WebEngine and PHP, however
+	#	if you feel like adding some extra security to your website you
+	#	can replace the current RewriteRule with the one below.
+	#	
+	#	This RewriteRule will allow only alphanumeric url requests.
+	#	
+	#	RewriteRule ^([a-zA-Z0-9\/]+)/?$ index.php?request=$1 [QSA,L]
+	
+	RewriteRule ^(.*)/?$ index.php?request=$1 [QSA,L]
+	
+</IfModule>

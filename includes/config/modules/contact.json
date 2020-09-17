@@ -1,0 +1,6 @@
+{
+    "sendto": "contact@email.com",
+    "subject": "Black Desert Online Contact",
+    "message_min_length": "10",
+    "message_max_length": "300"
+}

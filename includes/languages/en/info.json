@@ -1,0 +1,9 @@
+{
+    "active": true,
+    "name": "English",
+    "short_name": "EN",
+    "locale": "en_US",
+    "author": "Lautaro",
+    "website": "https:\/\/desertcore.com\/",
+    "version": "1.0.0"
+}

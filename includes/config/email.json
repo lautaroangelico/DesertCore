@@ -1,0 +1,15 @@
+{
+    "active": true,
+    "send_from": "noreply@email.com",
+    "send_name": "Black Desert Online",
+    "smtp_active": false,
+    "smtp_debug": "0",
+    "smtp_host": "",
+    "smtp_ipv6": true,
+    "smtp_port": "587",
+    "smtp_secure": "tls",
+    "smtp_auth": false,
+    "smtp_user": "",
+    "smtp_pass": "",
+    "email_header_image": "https:\/\/static.desertcore.com\/110_default_email_header.jpg"
+}

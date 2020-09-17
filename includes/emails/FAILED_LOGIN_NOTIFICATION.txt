@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<title>WebEngine CMS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="margin: 0; padding: 0;">
+	<table border="0" cellpadding="0" cellspacing="0" width="100%">	
+		<tr>
+			<td style="padding: 10px 0 30px 0;">
+				<table align="center" border="0" cellpadding="0" cellspacing="0" width="{EMAIL_WIDTH}" style="border: 1px solid #cccccc; border-collapse: collapse;">
+					<tr>
+						<td align="center" background="{HEADER_IMAGE}" style="height:{HEADER_IMAGE_HEIGHT}px; color: #153643; font-size: 28px; font-weight: bold; font-family: Arial, sans-serif;background: url('{HEADER_IMAGE}') no-repeat top center;background-size: {HEADER_IMAGE_WIDTH}px {HEADER_IMAGE_HEIGHT}px;">
+							<br />
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="#ffffff" style="padding: 40px 30px 40px 30px;">
+							<table border="0" cellpadding="0" cellspacing="0" width="100%">
+								<tr>
+									<td style="color: #153643; font-family: Arial, sans-serif; font-size: 24px;">
+										<b>Dear {USERNAME}</b>
+									</td>
+								</tr>
+								<tr>
+									<td style="padding: 20px 0 30px 0; color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">
+										Our security system has detected multiple failed login attempts to your account originating from the following ip address: <b>{IP_ADDRESS}</b>. If you forgot your account's password and would like to recover it you may <b><a href="{RECOVERY_LINK}" target="_blank">click here</a></b>.<br/><br/>
+
+										<span style="color:red;font-weight:bold;">WARNING:<br/>
+										If you did not fail to login to your account please report this activity to the administrator.</span><br/><br/>
+
+										Best regards,<br/>
+										{SERVER_NAME}.
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="#cfcfcf" style="padding: 30px 30px 30px 30px;">
+							<table border="0" cellpadding="0" cellspacing="0" width="100%">
+								<tr>
+									<td style="color: #000; font-family: Arial, sans-serif; font-size: 14px;">
+										&reg; {CURRENT_YEAR} | {SERVER_NAME}<br/>
+										To stop receiving emails <a href="{SUBSCRIPTION_LINK}" style="color: #000;"><font color="#000">unsubscribe here</font></a>.
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

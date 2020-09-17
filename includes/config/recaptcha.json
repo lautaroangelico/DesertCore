@@ -1,0 +1,9 @@
+{
+    "registration": false,
+    "login": false,
+    "password_recovery": false,
+    "username_recovery": false,
+    "redeem_code": false,
+    "site_key": "",
+    "secret_key": ""
+}

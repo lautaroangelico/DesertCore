@@ -1,0 +1,12 @@
+{
+    "subject_min_len": "1",
+    "subject_max_len": "100",
+    "message_min_len": "1",
+    "message_max_len": "1000",
+    "message_order": "ASC",
+    "staff_reply_name": "Staff",
+    "open_email_notification": true,
+    "reply_email_notification": true,
+    "close_email_notification": true,
+    "staff_new_notification": true
+}
